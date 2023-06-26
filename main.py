@@ -1,4 +1,4 @@
-
+#Creator: t.me/Dev_Scorpian
 from telethon.sync import TelegramClient
 from telethon.tl.functions.photos import DeletePhotosRequest,UploadProfilePhotoRequest
 from telethon.tl.functions.account import UpdateProfileRequest
@@ -8,13 +8,17 @@ from random import choice
 from datetime import datetime
 import time, base64
 import pytz 
-timee = pytz.timezone("Asia/Tehran")
+timee = pytz.timezone("Asia/Tehran")# A set TimeZone
+
+#-------------------Account information------------
 
 api_id = 1234#- Api id
 api_hash = "" #-Api hash
 bio = "Desires do not die before God | Time:" #Please replace this line with the text you would like to include in your biography.
 
-def number(number):
+#--------------------------------------------------
+
+def number(number:"It is related to changing the normal number to the one with font")-> str:
     number = number.replace('0', '０')
     number = number.replace('1', '１')
     number = number.replace('2', '２')
@@ -59,7 +63,7 @@ def main():
                 client(DeletePhotosRequest(client.get_profile_photos('me')))
                 client(UploadProfilePhotoRequest(True,image))
                 
-                time.sleep(1)
+                time.sleep(60)
 
 
 
