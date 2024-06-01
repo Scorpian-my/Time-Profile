@@ -4,9 +4,7 @@
 <br>
 First Install Library:
 ```
-pip install telethon
-pip install pillow
-pip install pytz
+pip install -r requirements.txt
 ```
 <hr>
 Now Running Bot:
