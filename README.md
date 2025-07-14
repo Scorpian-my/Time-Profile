@@ -31,7 +31,7 @@
 ## 🖥 Demo
 
 <p align="center">
-  <img src="https://github.com/Scorpian-my/Time-Profile/data/sample1.jpg" width="500"/>
+  <img src="https://github.com/Scorpian-my/Time-Profile/blob/main/data/sample1.jpg" width="500"/>
 </p>
 
 ---
