@@ -1,29 +1,42 @@
-# ⏰ Time-Profile
+<p align="center">
+  <img src="https://github.com/Scorpian-my/Time-Profile/raw/main/assets/banner.gif" alt="Time Profile Banner" width="700"/>
+</p>
 
-**Time-Profile** is a Telegram automation script built with [Telethon](https://github.com/LonamiWebs/Telethon). It updates your **Telegram profile photo** and **bio** every minute with the current time, beautifully rendered on a custom background image.
+<h1 align="center">⏰ Time-Profile</h1>
+
+<p align="center">
+  <b>Dynamic Telegram Profile Updater</b>  
+  <br>
+  <i>Automatically updates your profile picture and bio with the current time</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.7%2B-blue?logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/telethon-1.30+-blueviolet?logo=telegram">
+  <img src="https://img.shields.io/github/stars/Scorpian-my/Time-Profile?style=social">
+</p>
 
 ---
 
-## 📌 Features
+## ✨ Features
 
-- Automatically updates your **profile photo** every minute with a time-based image.
-- Updates your **bio** with the current time using special font characters.
-- Customizable background images, fonts, and bio text.
-- Lightweight and runs continuously.
+- 🖼 Dynamic **profile picture** with current time
+- 🧠 Updates **bio** with styled time every minute
+- 🎨 Beautiful image backgrounds & custom fonts
+- 🌐 Localized to **Asia/Tehran timezone**
+- 💻 Fully customizable and open-source
 
 ---
 
-## 📷 Example Output
+## 🖥 Demo
 
-> A centered image with the current time rendered over it  
-> *(You can add your own sample image at `data/sample_output.jpg`)*
+<p align="center">
+  <img src="https://github.com/Scorpian-my/Time-Profile/raw/main/assets/demo.gif" width="500"/>
+</p>
 
 ---
 
 ## ⚙️ Requirements
-
-- Python 3.7+
-- Install required libraries:
 
 ```bash
 pip install telethon pillow pytz
@@ -33,30 +46,30 @@ pip install telethon pillow pytz
 
 ## 🚀 Getting Started
 
-1. Go to [my.telegram.org](https://my.telegram.org) and obtain your **API ID** and **API Hash**.
-2. Open `Time-Profile.py` and fill in the following:
+1. Get your **API ID** and **API Hash** from [my.telegram.org](https://my.telegram.org).
+
+2. Open the script and insert them:
 
 ```python
 api_id = YOUR_API_ID
 api_hash = "YOUR_API_HASH"
 ```
 
-3. Run the script:
+3. Run the bot:
 
 ```bash
 python Time-Profile.py
 ```
 
-- On the first run, it will ask for your phone number and verification code.
-- After that, it updates your profile picture and bio every minute with the current time.
+> On first run, Telegram will ask for your phone number and login code.
 
 ---
 
-## 🖼 Customization
+## 🖌 Customization
 
-- Background images are located in the `photos/` folder. You can add or replace them with your own.
-- The font used for drawing the time is located in `data/3.ttf`.
-- The base bio text can be edited in this line:
+- Change background images in the `photos/` folder  
+- Replace font with your own in `data/3.ttf`  
+- Edit the base bio here:
 
 ```python
 bio = "Desires do not die before God | Time:"
@@ -64,33 +77,36 @@ bio = "Desires do not die before God | Time:"
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 Time-Profile/
-├── photos/
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   └── ...
+├── photos/         ← Background images
 ├── data/
-│   ├── 3.ttf
-│   └── Time.jpg (generated image)
+│   ├── 3.ttf       ← Font file
+│   └── Time.jpg    ← Generated profile image
 ├── Time-Profile.py
 └── README.md
 ```
 
 ---
 
-## 👤 Author
+## 🙋‍♂️ Author
 
-Created by [@Dev_Scorpian](https://t.me/Dev_Scorpian)
+Made with ❤️ by [@Dev_Scorpian](https://t.me/Dev_Scorpian)
+
+> Telegram bot dev? Let's connect and build cool stuff!
 
 ---
 
 ## ⚠️ Disclaimer
 
-- Use this script responsibly.
-- Telegram may restrict accounts that perform frequent automated actions. Use at your own risk.
-- This script uses official Telegram API methods and does not send any messages.
+This script uses official Telegram API via Telethon.  
+Avoid using it with spammy accounts. Run responsibly.
 
 ---
+
+## ⭐️ Show Some Love
+
+If you like it, give it a ⭐️ on GitHub and share it with others!
+
