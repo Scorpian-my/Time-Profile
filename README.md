@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://github.com/Scorpian-my/Time-Profile/raw/main/assets/banner.gif" alt="Time Profile Banner" width="700"/>
-</p>
+
 
 <h1 align="center">⏰ Time-Profile</h1>
 
